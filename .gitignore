@@ -1,0 +1,7 @@
+node_modules/
+.divshot-cache/*
+logs
+*.log
+npm-debug.log*
+.DS_Store
+build/
