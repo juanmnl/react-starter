@@ -24,6 +24,7 @@ on the browser:
 
 ### TODO
 
+- yeoman generator
 - create own hjs-webpack
 - ability to choose different css frameworks
 - Lots of things :P

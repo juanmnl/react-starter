@@ -9,9 +9,6 @@ var Hello = React.createClass({
         <h2>This is a react boilerplate.</h2>
         <p>Checkout that cool favicon!</p>
         <hr />
-        <div>
-
-        </div>
         <p>Made with <Icon icon="heart" /> by {this.props.name} :P </p>
       </div>
     );
