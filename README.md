@@ -1,5 +1,11 @@
 # React-starter
 
+- CLI  
+- Config File  
+- Dev Server  
+- Loaders  
+- Production Builds  
+
 Looking for the perfect react development boilerplate
 
 This is a WIP.
