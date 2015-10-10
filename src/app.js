@@ -1,5 +1,6 @@
-var React = require('react');
-var Hello = require('./components/Hello');
+var React    = require('react');
+var ReactDOM = require('react-dom');
+var Hello    = require('./components/Hello');
 
 // Styles base
 // var styles = require('./styles/master.scss');
@@ -14,4 +15,4 @@ var App = React.createClass({
   }
 });
 
-React.render(<App />, document.body);
+ReactDOM.render(<App />, document.getElementById('app'));

@@ -1,1 +1,15 @@
 @import "./../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+@import "./utils/_colors";
+// Override Bootstrap example
+.glyphicon {
+  position: relative;
+  top: 4px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-size: 1.3em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  color: $heart-red;
+}

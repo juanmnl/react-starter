@@ -10,7 +10,9 @@ var Hello = React.createClass({
         <h3>No hassle, just start developping.</h3>
         <p>Checkout that cool favicon!</p>
         <hr />
-        <p>Made with <Icon icon="heart" /> by {this.props.name} :P </p>
+        <p>Made with <Icon icon="heart" /> by
+          <a href="http://www.juanmnl.com"> {this.props.name} </a>
+        </p>
       </div>
     );
   }

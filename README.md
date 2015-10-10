@@ -1,12 +1,12 @@
-# Webpack + React DevKit ***WIP***
+# NPM@3(Webpack + React).DevKit ***WIP***
 
 - JSX - React  
-- ES6 - Babel  
+- ES5 or ES6 w/Babel  
 - Sass/Scss  
 - Eslint  
-- Bootstrap?
+- Assests optim  
+- Bootstrap
 - Testing?  
-- Assests and optim  
 
 ---
 
@@ -23,7 +23,7 @@ npm i -g webpack webpack-dev-server
 ---
 ***FROM ROOT FOLDER***
 
-**Install all dependencies**
+**Install dependencies**
 ```
 npm install
 ```
@@ -43,7 +43,7 @@ npm run build
 npm run build-prod
 ```
 
-### Config File  
+### Config File Quick Tips  
 
 You can add an array of files to the entry *(files that are not required anywhere else)* :
 
@@ -51,7 +51,7 @@ You can add an array of files to the entry *(files that are not required anywher
 entry: [ "./otherFile", "./app/app.js"]
 ```  
 
-If you need some kind of preloading like *jshint*, you can add a .jshintrc to your root folder (for configuration), the jshint-loader to package.json and a preloader into the modules:  
+If you need some kind of preloading like *jshint*, you can add a .jshintrc to your root folder (for configuration), the jshint-loader to package.json and 'preloaders' into the modules:  
 ```
 preloaders: [
   {
