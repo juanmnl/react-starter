@@ -1,7 +1,16 @@
+var path = require("path");
+
 module.exports = {
-  entry: "./src/app.js",
+  context: path.resolve("src"),
+  entry: "./app",
   output: {
-    filename: "./build/bundle.js"
+    path : path.resolve("build/js/"), // Ghost folder for dev server
+    publicPath: "/public/assets/js/",
+    filename: "bundle.js"
+  },
+
+  devServer: {
+    contentBase: "public"
   },
 
   module: {
