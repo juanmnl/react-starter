@@ -1,12 +1,27 @@
 # Webpack + React DevKit ***WIP***
 
+- JSX - React  
+- ES6 - Babel  
+- Sass/Scss  
+- Eslint  
+- Bootstrap?
+- Testing?  
+- Assests and optim  
+
+---
+
 ### CLI  
 
-Installing webpack and dev-server globally (-g) will save us time when running the scripts from the command-line.
+Clone or download the react-starter project.
+
+Install webpack and dev-server globally (-g) to save time when running the scripts.
 
 ```
 npm i -g webpack webpack-dev-server
 ```
+
+---
+***FROM ROOT FOLDER***
 
 **Install all dependencies**
 ```
@@ -30,7 +45,7 @@ npm run build-prod
 
 ### Config File  
 
-You can add an array of files to the entry *(file that are not required anywhere else)* :
+You can add an array of files to the entry *(files that are not required anywhere else)* :
 
 ```
 entry: [ "./otherFile", "./app/app.js"]
