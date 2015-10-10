@@ -4,7 +4,8 @@
   "description": "Webpack + React DevKit",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server",
+    "build-prod": "webpack --config webpack-production.config.js -p"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "eslint": "^1.6.0",
     "eslint-plugin-react": "^3.5.1",
     "node-libs-browser": "^0.5.3",
+    "strip-loader": "^0.1.0",
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.0"
   },

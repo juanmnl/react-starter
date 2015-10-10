@@ -23,6 +23,11 @@ npm start
 npm run build
 ```
 
+**Build for production w/ strip-loader and production config**
+```
+npm run build-prod
+```
+
 ### Config File  
 
 You can add an array of files to the entry *(file that are not required anywhere else)* :
@@ -31,6 +36,16 @@ You can add an array of files to the entry *(file that are not required anywhere
 entry: [ "./otherFile", "./app/app.js"]
 ```  
 
+If you need some kind of preloading like *jshint*, you can add a .jshintrc to your root folder (for configuration), the jshint-loader to package.json and a preloader into the modules:  
+```
+preloaders: [
+  {
+    test: /\.js/,
+    exclude: /node_modules/,
+    loader: "jshint-loader"
+  }
+]
+```
 
 Webpack resolves every .js file but if you want to use different extensions, you can set this after the *modules*:  
 ```
@@ -38,29 +53,3 @@ resolve: {
   extensions: ['', '.js', '.es6', '.ejs', .. ]
 }
 ```
-
-### Dev Server  
-### Loaders  
-### Production Builds  
-
-1 - Clone  
-2 - Change Names (root folder & package.json)  
-3 - Run scripts
-
-
-## Scripts  
-
-`npm install` -> install dependencies  
-`npm run build` -> create 'build/' folder   
-`npm start` -> run development server
-
-on the browser:  
-`http://localhost:3000`
-
-
-### TODO
-
-- yeoman generator
-- create own hjs-webpack
-- ability to choose different css frameworks
-- Lots of things :P
