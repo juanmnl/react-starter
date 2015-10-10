@@ -1,17 +1,47 @@
-# React-starter
+# Webpack + React DevKit ***WIP***
 
-- CLI  
-- Config File  
-- Dev Server  
-- Loaders  
-- Production Builds  
+### CLI  
 
-Looking for the perfect react development boilerplate
+Installing webpack and dev-server globally (-g) will save us time when running the scripts from the command-line.
 
-This is a WIP.
+```
+npm i -g webpack webpack-dev-server
+```
 
-- hjs-webpack
-- bootstrap 3
+**Install all dependencies**
+```
+npm install
+```
+
+**Run dev server** *`http://localhost:8080/webpack-dev-server/`*
+```
+npm start
+```  
+
+**Make build**
+```
+npm run build
+```
+
+### Config File  
+
+You can add an array of files to the entry *(file that are not required anywhere else)* :
+
+```
+entry: [ "./otherFile", "./app/app.js"]
+```  
+
+
+Webpack resolves every .js file but if you want to use different extensions, you can set this after the *modules*:  
+```
+resolve: {
+  extensions: ['', '.js', '.es6', '.ejs', .. ]
+}
+```
+
+### Dev Server  
+### Loaders  
+### Production Builds  
 
 1 - Clone  
 2 - Change Names (root folder & package.json)  

@@ -2,7 +2,7 @@ var React = require('react');
 var Hello = require('./components/Hello');
 
 // Styles base
-var styles = require('./styles/master.scss');
+// var styles = require('./styles/master.scss');
 
 var App = React.createClass({
   render: function() {
@@ -15,7 +15,3 @@ var App = React.createClass({
 });
 
 React.render(<App />, document.body);
-
-
-// This component is for the base layout ONLY.
-// It does not hot reload
