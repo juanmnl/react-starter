@@ -6,11 +6,11 @@ var Hello = React.createClass({
     return (
       <div>
         <h1>Can you feel me?</h1>
-        <h2>This is an NPM@3(Webpack + React.js) DevKit</h2>
-        <p>A boilerplate for quick prototyping with facebook's React UI library.</p>
+        <h2>Yet another NPM@3(Webpack + React.js) Frontend DevKit</h2>
+        <p>A boilerplate for lightning-fast prototyping with Webpack + Sass + React & Bootstrap.</p>
         <hr />
         <p>Made with <Icon icon="heart" /> by
-          <a href="http://www.juanmnl.com"> {this.props.name} </a>
+          <a href="http://www.juanmnl.com" target="_blank"> {this.props.name} </a>
         </p>
       </div>
     );

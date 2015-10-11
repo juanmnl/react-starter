@@ -14,10 +14,22 @@ module.exports = {
   },
 
   module: {
-    loaders: [{
-      test: /\.js$/,
-      exclude: /node_modules/,
-      loader: "babel-loader"
-    }]
+    loaders: [
+      {// Load JS, ES6
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: "babel-loader"
+      },
+      {// Load CSS
+        test: /\.css$/,
+        exclude: /node_modules/,
+        loader: "style-loader!css-loader"
+      },
+      {// Load Sass
+        test: /\.scss$/,
+        exclude: /node_modules/,
+        loader: "style-loader!css-loader!autoprefixer-loader!sass-loader"
+      }
+    ]
   }
 };
