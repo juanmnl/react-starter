@@ -1,6 +1,8 @@
 @import "./utils/_colors";
 
-
+body {
+  background-color: $white;
+}
 // Override Bootstrap example
 .glyphicon {
   position: relative;
@@ -25,4 +27,11 @@ a {
     color: $black;
     text-decoration: none;
   }
+}
+
+.juanmnl-img {
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  background: url("../images/juanmnl.png") center no-repeat;
 }

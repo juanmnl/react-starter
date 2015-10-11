@@ -5,6 +5,7 @@ var Hello = React.createClass({
   render: function() {
     return (
       <div>
+        <img className="juanmnl-img" />
         <h1>Can you feel me?</h1>
         <h2>Yet another NPM@3(Webpack + React.js) Frontend DevKit</h2>
         <p>A boilerplate for lightning-fast prototyping with Webpack + Sass + React & Bootstrap.</p>
