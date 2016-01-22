@@ -1,14 +1,14 @@
-var React = require('react');
-var Icon = require('./Icon');
+import React from 'react';
+import Icon  from './Icon';
 
-var Hello = React.createClass({
-  render: function() {
+const Hello = React.createClass({
+  render() {
     return (
       <div>
         <img className="juanmnl-img" />
         <h1>Can you feel me?</h1>
-        <h2>Yet another NPM@3(Webpack + React.js) Frontend DevKit</h2>
-        <p>A boilerplate for lightning-fast prototyping with Webpack + Sass + React & Bootstrap.</p>
+        <h2>Yet another React-based Frontend DevKit</h2>
+        <p>A boilerplate for lightning-fast prototyping with Npm3 + Webpack + Babel + Eslint + Mocha + Sass + React & Bootstrap.</p>
         <hr />
         <p>Made with <Icon icon="heart" /> by
           <a href="http://www.juanmnl.com" target="_blank"> {this.props.name} </a>
@@ -18,4 +18,4 @@ var Hello = React.createClass({
   }
 });
 
-module.exports = Hello;
+export default Hello;

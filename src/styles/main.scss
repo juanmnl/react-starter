@@ -3,18 +3,6 @@
 body {
   background-color: $white;
 }
-// Override Bootstrap example
-.glyphicon {
-  position: relative;
-  top: 4px;
-  display: inline-block;
-  font-family: 'Glyphicons Halflings';
-  font-size: 1.3em;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1;
-  color: $heart-red;
-}
 
 a {
   font-size: 1.2em;
@@ -33,5 +21,6 @@ a {
   width: 100px;
   height: 100px;
   margin: 15px;
+  border-radius: 100%;
   background: url("../images/juanmnl.png") center no-repeat;
 }

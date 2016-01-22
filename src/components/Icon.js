@@ -1,11 +1,11 @@
-var React = require('react');
+import React from 'react';
 
-var Icon = React.createClass({
-  render: function() {
+const Icon = React.createClass({
+  render() {
     return (
-      <i className={"glyphicon glyphicon-" + this.props.icon}></i>
+      <i className={'glyphicon glyphicon-' + this.props.icon}></i>
     );
   }
 });
 
-module.exports = Icon;
+export default Icon;
