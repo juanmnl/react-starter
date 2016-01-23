@@ -1,12 +1,15 @@
-# NPM@3(Webpack + React).DevKit ***WIP***
+# React DevKit ***WIP***  
 
-- JSX - React  
-- ES5 or ES6 w/Babel  
-- Sass/Scss  
+**I'm updating, fixing and changing everything. Do not use! :warning:**
+
+- NPM
+- Webpack  
+- Babel  
+- Scss -> PostCss  
 - Eslint  
 - Assests optim  
 - Bootstrap
-- Testing?  
+- Mocha  
 
 ---
 
