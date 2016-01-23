@@ -1,11 +1,9 @@
 import React from 'react';
 
-const Icon = React.createClass({
-  render() {
-    return (
-      <i className={'glyphicon glyphicon-' + this.props.icon}></i>
-    );
-  }
-});
-
+const Icon = (props) => {
+  let icon = `fa fa-${props.icon}`;
+  return (
+    <i className={icon}></i>
+  )
+}
 export default Icon;
