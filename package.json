@@ -44,7 +44,6 @@
     "bootstrap": "^3.3.5",
     "font-awesome": "^4.5.0",
     "history": "^2.0.0-rc2",
-    "html-webpack-template": "^2.5.2",
     "purifycss-loader": "^1.0.1",
     "react": "^0.14.0",
     "react-dom": "^0.14.0",
