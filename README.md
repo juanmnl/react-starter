@@ -1,7 +1,5 @@
 # React DevKit *
 
-**I'm updating, fixing and changing everything. Do not use! :warning:**
-
 - NPM
 - Webpack  
 - React
@@ -23,7 +21,6 @@ Install webpack and dev-server globally (-g) to save time when running the scrip
 ```
 npm i -g webpack webpack-dev-server
 ```
-
 ---
 ***FROM ROOT FOLDER***
 

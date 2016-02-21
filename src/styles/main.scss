@@ -4,7 +4,9 @@
 
 @import "./utils/_colors";
 
-.fa { color: $heart-red; }
+.fa {
+  color: $heart-red;
+}
 
 body {
   background-color: $white;
@@ -27,6 +29,6 @@ a {
   width: 100px;
   height: 100px;
   margin: 15px;
-  border-radius: 100%;
   background: url("../images/juanmnl.png") center no-repeat;
+  border-radius: 100%;
 }
