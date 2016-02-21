@@ -1,9 +1,10 @@
-# React DevKit ***WIP***  
+# React DevKit *
 
 **I'm updating, fixing and changing everything. Do not use! :warning:**
 
 - NPM
 - Webpack  
+- React
 - Babel  
 - Scss -> PostCss  
 - Eslint  
