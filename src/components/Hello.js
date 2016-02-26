@@ -6,9 +6,13 @@ const Hello = React.createClass({
     return (
       <div>
         <img className="juanmnl-img" />
-        <h1><Icon icon="music" /> Can you feel me?<Icon icon="music" /></h1>
+        <h1>
+          <Icon icon="music" /> Oh! Oh! Oh-oh!<Icon icon="music" />
+        </h1>
         <h2>Yet another React-based Frontend DevKit</h2>
-        <p>A boilerplate for lightning-fast prototyping with Npm + Webpack + React + Babel + Eslint + Mocha + Sass & Bootstrap.</p>
+        <p>
+          A boilerplate for lightning-fast prototyping with Webpack + React + Babel + Eslint + Sass & Bootstrap.
+        </p>
         <hr />
         <p>Made with <Icon icon="heart" /> by
           <a href="http://www.juanmnl.com" target="_blank"> {this.props.name} </a>

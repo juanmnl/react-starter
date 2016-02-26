@@ -1,14 +1,12 @@
-# React DevKit *
+# React Starter DevKit
 
 - NPM
 - Webpack  
-- React
-- Babel  
-- Scss -> PostCss  
+- React  
+- Scss -> PostCss
+- Babel   
 - Eslint  
-- Assests optim  
 - Bootstrap
-- Mocha  
 
 ---
 

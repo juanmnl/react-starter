@@ -1,4 +1,4 @@
-- [] Fix console warnings
-- [] Fix welcome layout
+- [x] Fix console warnings
+- [x] Fix welcome layout
 - [] Fix quick start guide
 - [] purifycss-loader -> purifycss-webpack-plugin
