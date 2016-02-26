@@ -1,12 +1,19 @@
 # React Starter DevKit
 
-- NPM
-- Webpack  
-- React  
-- Scss -> PostCss
-- Babel   
-- Eslint  
-- Bootstrap
+### Featuring:
+* NPM
+* Webpack
+* React
+* Scss (-> PostCss)
+* Bootstrap
+* Babel
+* Eslint
+
+#### Extras:
+* React-router & History
+* Font-awesome
+* Purify-css
+* Strip-loader and webpack production config
 
 ---
 
@@ -41,6 +48,7 @@ npm run build
 ```
 npm run build-prod
 ```
+
 
 ### Config File Quick Tips  
 
