@@ -10,6 +10,7 @@
 * Eslint
 
 #### Extras:
+* React-HMR
 * React-router & History
 * Font-awesome
 * Purify-css

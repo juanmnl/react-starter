@@ -4,8 +4,8 @@ import Icon  from './Icon';
 const Hello = React.createClass({
   render() {
     return (
-      <div>
-        <img className="juanmnl-img" />
+      <div className="jumbotron">
+        <img className="juanmnl-img img-circle img-responsive" />
         <h1>
           <Icon icon="music" /> Oh! Oh! Oh-oh!<Icon icon="music" />
         </h1>

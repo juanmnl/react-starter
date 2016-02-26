@@ -25,10 +25,17 @@ a {
   }
 }
 
+.container {
+  min-width: 550px;
+  max-width: 75%;
+  padding: 2rem 2rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .juanmnl-img {
-  width: 100px;
-  height: 100px;
-  margin: 15px;
+  width: 150px;
+  height: 150px;
   background: url("../assets/images/juanmnl.png") center no-repeat;
   border-radius: 100%;
 }
