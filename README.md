@@ -1,5 +1,7 @@
 # React Starter DevKit
 
+**From zero to prototype in no time**
+
 ### Featuring:
 * NPM
 * Webpack
@@ -18,7 +20,7 @@
 
 ---
 
-### CLI  
+### Install
 
 Clone or download the react-starter project.
 

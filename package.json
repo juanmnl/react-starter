@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/juanmnl/react-starter#readme",
   "devDependencies": {
+    "autoprefixer": "^6.3.3",
     "babel-core": "6.5.2",
     "babel-eslint": "5.0.0",
     "babel-loader": "6.2.3",
@@ -32,6 +33,7 @@
     "node-libs-browser": "1.0.0",
     "node-sass": "3.4.2",
     "postcss-loader": "0.8.1",
+    "precss": "^1.4.0",
     "sass-loader": "3.1.2",
     "strip-loader": "0.1.2",
     "style-loader": "0.13.0",
@@ -44,7 +46,6 @@
     "bootstrap": "3.3.6",
     "font-awesome": "4.5.0",
     "history": "2.0.0",
-    "purifycss-loader": "1.0.1",
     "react": "0.14.7",
     "react-dom": "0.14.7",
     "react-router": "2.0.0"

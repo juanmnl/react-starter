@@ -2,7 +2,9 @@ const path = require('path');
 const webpack = require('webpack');
 const merge = require('webpack-merge');
 const HtmlwebpackPlugin = require('html-webpack-plugin');
-const PurifyCssPlugin = require('purifycss-loader/PurifyCssPlugin');
+const autoprefixer = require('autoprefixer');
+const precss = require('precss');
+
 
 const TARGET = process.env.npm_lifecycle_event;
 const PATHS = {
@@ -26,7 +28,7 @@ var common = {
     loaders: [
       {
         test: /\.scss$/,
-        loader: 'style-loader!css-loader!postcss-loader!purifycss-loader!sass-loader',
+        loaders: ['style', 'css', 'postcss', 'sass'],
         include: PATHS.src
       },
       {
@@ -53,13 +55,15 @@ var common = {
       }
     ]
   },
+  postcss: function () {
+    return [autoprefixer, precss];
+  },
   plugins: [
     new HtmlwebpackPlugin({
       title: 'React DevKit',
       template: 'src/index.html',
       inject: false
-    }),
-    new PurifyCssPlugin(PATHS.src, '/index.html')
+    })
   ]
 };
 
