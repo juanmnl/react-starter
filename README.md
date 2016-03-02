@@ -1,6 +1,6 @@
 # React Starter DevKit
 
-**A small boilerplate for lightning-fast prototyping**
+**A small boilerplate for lightning-fast prototyping :rocket: :moon:**
 
 ![Preview](./preview.png)
 
