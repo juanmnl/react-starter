@@ -1,6 +1,8 @@
 # React Starter DevKit
 
-**From zero to prototype in no time**
+**A small boilerplate for lightning-fast prototyping**
+
+![Preview](./preview.png)
 
 ### Featuring:
 * NPM
@@ -15,7 +17,6 @@
 * React-HMR
 * React-router & History
 * Font-awesome
-* Purify-css
 * Strip-loader and webpack production config
 
 ---

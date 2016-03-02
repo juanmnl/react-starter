@@ -32,9 +32,26 @@ a {
   margin-left: auto;
 }
 
-.juanmnl-img {
+.jumbotron {
+  background-color: transparent;
+  h1 {
+    font-size: 1.8em;
+  }
+  p {
+    font-size: 1.2em;
+  }
+}
+
+.avatar {
+  display: table;
   width: 150px;
   height: 150px;
-  background: url("../assets/images/juanmnl.png") center no-repeat;
-  border-radius: 100%;
+  margin: 0 auto;
+
+  .juanmnl-img {
+    width: 150px;
+    height: 150px;
+    background: url("../assets/images/juanmnl.png") center no-repeat;
+    border-radius: 100%;
+  }
 }

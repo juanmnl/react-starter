@@ -1,11 +1,14 @@
 import React from 'react';
-import Hello from '../components/Hello';
+import Hello from './Hello';
+import Footer from './layout/Footer';
 
 const App = React.createClass({
   render() {
     return (
       <div className='container'>
-        <Hello name='Juanmnl' />
+        <Hello />
+        <hr />
+        <Footer name='Juanmnl' />
       </div>
     );
   }
