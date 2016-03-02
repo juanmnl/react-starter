@@ -1,6 +1,8 @@
 # React Starter DevKit
 [![Build Status](https://travis-ci.org/juanmnl/react-starter.svg?branch=master)](https://travis-ci.org/juanmnl/react-starter)
-[![Dependencies](https://david-dm.org/juanmnl/react-starter.svg?branch=master)](https://david-dm.org/juanmnl/react-starter)  
+[![Dependencies](https://david-dm.org/juanmnl/react-starter.svg?branch=master)](https://david-dm.org/juanmnl/react-starter)
+[![Code Climate](https://codeclimate.com/github/juanmnl/react-starter/badges/gpa.svg)](https://codeclimate.com/github/juanmnl/react-starter)
+
 
 **A small boilerplate for lightning-fast prototyping :rocket: :moon:**
 

@@ -1,4 +1,6 @@
 - [x] Fix console warnings
 - [x] Fix welcome layout
-- [] Fix quick start guide
-- [] purifycss-loader -> purifycss-webpack-plugin
+- [] Add tests (ava? mocha+chai?)
+- [] Make quick start guide better
+- [] Optimize CSS (webpack postcss plugin?)
+- [] Build and deploy scripts
