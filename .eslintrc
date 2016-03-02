@@ -5,9 +5,7 @@
     "es6": true
   },
   "parser": "babel-eslint",
-  "globals": {
-    "React": true
-  },
+  "globals": { "React": true },
 
   "ecmaFeatures": {
     "modules": true,
@@ -18,7 +16,5 @@
     "quotes": [2, "single"]
   },
 
-  "plugins": [
-    "react"
-  ]
+  "plugins": [ "react" ]
 }
