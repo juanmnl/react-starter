@@ -1,5 +1,5 @@
-import WebpackStrip from 'strip-loader';
-import devConfig    from './webpack.config.js';
+const WebpackStrip = require('strip-loader');
+const devConfig = require('./webpack.config.js');
 
 const stripLoader = {
   test: /\.js$/,
@@ -10,4 +10,4 @@ const stripLoader = {
 
 devConfig.module.loaders.push(stripLoader);
 
-export default devConfig;
+module.exports = devConfig;
