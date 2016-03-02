@@ -1,5 +1,6 @@
 # React Starter DevKit
-[![Build Status](https://travis-ci.org/juanmnl/react-starter.svg?branch=master)](https://travis-ci.org/juanmnl/react-starter)
+[![Build Status](https://travis-ci.org/juanmnl/react-starter.svg?branch=master)](https://travis-ci.org/juanmnl/react-starter)  
+
 **A small boilerplate for lightning-fast prototyping :rocket: :moon:**
 
 ![Preview](./preview.png)
