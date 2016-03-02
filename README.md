@@ -21,7 +21,6 @@
 * React-HMR
 * React-router & History
 * Font-awesome
-* Strip-loader and webpack production config
 
 ---
 
@@ -41,14 +40,9 @@ npm install
 npm start
 ```  
 
-**Make build**
+**Build project**
 ```
 npm run build
-```
-
-**Build for production w/ strip-loader and production config**
-```
-npm run build-prod
 ```
 
 ---
