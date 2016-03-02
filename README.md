@@ -25,12 +25,6 @@
 
 Clone or download the react-starter project.
 
-Install webpack and dev-server globally (-g) to save time when running the scripts.
-
-```
-npm i -g webpack webpack-dev-server
-```
----
 ***FROM ROOT FOLDER***
 
 **Install dependencies**
@@ -53,7 +47,7 @@ npm run build
 npm run build-prod
 ```
 
-
+---
 ### Config File Quick Tips  
 
 You can add an array of files to the entry *(files that are not required anywhere else)* :

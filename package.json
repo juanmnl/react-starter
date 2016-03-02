@@ -4,8 +4,8 @@
   "description": "Webpack + React DevKit",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
-    "build-prod": "webpack --config webpack-production.config.js -p"
+    "start": "./node_modules/.bin/webpack-dev-server",
+    "build-prod": "./node_modules/.bin/webpack --config webpack-production.config.js -p"
   },
   "repository": {
     "type": "git",
