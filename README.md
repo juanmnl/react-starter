@@ -23,27 +23,46 @@
 * Font-awesome
 
 ---
+## Getting Started
 
 ### Install
 
-Clone or download the react-starter project.
+**1. Clone the react-starter project.**
 
-***FROM ROOT FOLDER***
+`git clone git@github.com:juanmnl/react-starter.git`
 
-**Install dependencies**
-```
-npm install
-```
+**2. Change the folder (react-starter) name with your project name.**
 
-**Run dev server** *`http://localhost:8080/webpack-dev-server/`*
-```
-npm start
-```  
+`mv react-starter/ [yourProjectName]/`
 
-**Build project**
-```
-npm run build
-```
+`cd [yourProjectName]/`
+
+*FROM YOUR PROJECT (ROOT) FOLDER*
+
+**3. Remove .git file and add a fresh one.**
+
+`rm -rf .git && git init`
+
+From this point this is your own project.  
+You can commit and push from 0 to your own repo.  
+*Follow the instructions when creating a new repo.*
+
+
+**4. Install dependencies**
+
+`npm install`
+
+**5. Run dev server** *`http://localhost:8080/webpack-dev-server/`*
+
+`npm start`
+
+**6. Build project**
+
+`npm run build`
+
+#### –––– That's all folks! :smile: ––––
+##### –––– Start building awesome things! :rocket: ––––
+
 
 ---
 ### Config File Quick Tips  
