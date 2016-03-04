@@ -10,7 +10,7 @@ const precss = require('precss');
 const TARGET = process.env.npm_lifecycle_event;
 const PATHS = {
   src: path.join(__dirname, 'src'),
-  build: path.join(__dirname, 'dist')
+  dist: path.join(__dirname, 'dist')
 }
 
 process.env.BABEL_ENV = TARGET;
@@ -22,7 +22,7 @@ var common = {
     extensions: ['', '.js', '.jsx']
   },
   output: {
-    path: PATHS.build,
+    path: PATHS.dist,
     filename: 'bundle.js'
   },
   module: {
