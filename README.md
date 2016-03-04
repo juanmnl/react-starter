@@ -39,12 +39,13 @@
 
 *FROM YOUR PROJECT (ROOT) FOLDER*
 
-**3. Remove .git file and add a fresh one.**
+**3. Remove the template .git file and add a fresh one.**
 
 `rm -rf .git && git init`
 
 From this point this is your own project.  
-You can commit and push from 0 to your own repo.  
+You can commit and push from 0 to your own repo.
+
 *Follow the instructions when creating a new repo.*
 
 

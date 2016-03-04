@@ -1,7 +1,8 @@
 // 3RD PARTY LIBS
 @import './libs/normalize.scss';
 @import './../../node_modules/font-awesome/css/font-awesome.min.css';
-@import './utils/_colors';
+//
+@import './settings/_colors';
 
 .fa {
   color: $heart-red;
