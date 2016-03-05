@@ -29,7 +29,7 @@
 
 **1. Clone the react-starter project.**
 
-`git clone git@github.com:juanmnl/react-starter.git`
+`git clone https://github.com/juanmnl/react-starter.git`
 
 **2. Change the folder (react-starter) name with your project name.**
 
@@ -46,7 +46,7 @@
 From this point this is your own project.  
 You can commit and push from 0 to your own repo.
 
-*Follow the instructions when creating a new repo.*
+*Follow the instructions when creating a new repo* or check [How to create a repo.](https://help.github.com/articles/create-a-repo/)
 
 
 **4. Install dependencies**
