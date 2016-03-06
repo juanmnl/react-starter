@@ -4,17 +4,17 @@ import Icon from './Icon';
 const Hello = React.createClass({
   render() {
     return (
-      <div className="jumbotron">
+      <div>
         <div className="avatar">
-          <img className="juanmnl-img img-circle img-responsive" />
+          <img className="juanmnl-img" />
         </div>
-        <h1 className="text-center">
+        <h1>
           <Icon icon="music" /> Oh! Oh! Oh-oh!<Icon icon="music" />
         </h1>
         <hr/>
-        <h2 className="text-center">Yet another React-based Frontend DevKit</h2>
-        <p className="text-center">
-          A boilerplate for lightning-fast prototyping with Webpack + React + Babel + Eslint + Sass & Bootstrap.
+        <h2>Yet another React-based Frontend DevKit</h2>
+        <p>
+          A boilerplate for lightning-fast prototyping with Webpack + React + Babel + Eslint & Sass.
         </p>
       </div>
     );

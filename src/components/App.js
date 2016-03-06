@@ -5,7 +5,7 @@ import Footer from './layout/Footer';
 const App = React.createClass({
   render() {
     return (
-      <div className='container'>
+      <div>
         <Hello />
         <hr />
         <Footer name='Juanmnl' />

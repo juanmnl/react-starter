@@ -44,7 +44,6 @@
     "webpack-merge": "0.8.3"
   },
   "dependencies": {
-    "bootstrap": "3.3.6",
     "font-awesome": "4.5.0",
     "history": "2.0.1",
     "react": "0.14.7",

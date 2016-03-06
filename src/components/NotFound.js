@@ -5,8 +5,8 @@ const NotFound = React.createClass({
   render() {
     return (
       <section id="not-found" className="intro">
-        <div className="container">
-          <div className="jumbotron">
+        <div>
+          <div>
             <i className="fa fa-odnoklassniki-square fa-5x"></i>
             <br/>
             <br/>
@@ -14,7 +14,7 @@ const NotFound = React.createClass({
             <p>Didn't found what you where looking for.</p>
             <br/>
             <p>
-              <Link to="/" className="btn btn-default btn-lg">
+              <Link to="/">
                 Back
               </Link>
             </p>
