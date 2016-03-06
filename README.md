@@ -6,7 +6,7 @@
 
 **A small boilerplate for lightning-fast prototyping :rocket: :moon:**
 
-![Preview](./previews/preview.png)
+![Preview](https://github.com/juanmnl/react-starter/blob/master/previews/preview.png)
 
 ### Featuring:
 * NPM
@@ -72,7 +72,7 @@ You can commit and push from 0 to your own repo.
 
 `git clone -b no-css-framework https://github.com/juanmnl/react-starter.git`
 
-![no-css-framework](./previews/no-css.png)
+![no-css-framework](https://github.com/juanmnl/react-starter/blob/master/previews/no-css.png)
 
 ---
 ### Config File Quick Tips  
