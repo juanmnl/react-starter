@@ -6,14 +6,14 @@
 
 **A small boilerplate for lightning-fast prototyping :rocket: :moon:**
 
-![Preview](./preview.png)
+![Preview](./previews/preview.png)
 
 ### Featuring:
 * NPM
 * Webpack
 * React
 * Scss (-> PostCss)
-* Bootstrap
+* Bootstrap *(don't like bootstrap? Try the alternatives)*
 * Babel
 * Eslint
 
@@ -64,6 +64,15 @@ You can commit and push from 0 to your own repo.
 #### –––– That's all folks! :smile: ––––
 ##### –––– Start building awesome things! :rocket: ––––
 
+---
+
+## Alternative installs
+
+#### No Css Framework
+
+`git clone -b no-css-framework https://github.com/juanmnl/react-starter.git`
+
+![no-css-framework](./previews/no-css.png)
 
 ---
 ### Config File Quick Tips  
