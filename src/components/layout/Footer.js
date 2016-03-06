@@ -6,7 +6,7 @@ const Footer = React.createClass({
     return (
       <footer>
         <p className="text-center">Made with <Icon icon="heart" /> by
-          <a href="http://www.juanmnl.com" target="_blank"> {this.props.name} </a>
+          <a href="https://twitter.com/_juanmnl" target="_blank"> {this.props.name} </a>
         </p>
       </footer>
     );
