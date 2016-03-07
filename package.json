@@ -6,7 +6,8 @@
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server",
     "build": "./node_modules/.bin/webpack -p",
-    "test": "mocha './src/**/*.spec.js' --compilers js:babel-core/register"
+    "test": "mocha './src/**/*.spec.js' --compilers js:babel-core/register",
+    "test-watch": "mocha -w './src/**/*.spec.js' --compilers js:babel-core/register"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "eslint": "2.3.0",
     "eslint-plugin-react": "4.2.0",
     "expect": "^1.14.0",
+    "expect-jsx": "^2.3.0",
     "file-loader": "0.8.5",
     "html-webpack-plugin": "2.9.0",
     "mocha": "^2.4.5",
