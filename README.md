@@ -75,7 +75,7 @@ You can commit and push from 0 to your own repo.
 ![no-css-framework](https://github.com/juanmnl/react-starter/blob/master/previews/no-css.png)
 
 ---
-### Config File Quick Tips  
+#### Webpack Config File - Quick Tips  
 
 You can add an array of files to the entry *(files that are not required anywhere else)* :
 
