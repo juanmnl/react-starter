@@ -1,28 +1,25 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-const NotFound = React.createClass({
-  render() {
-    return (
-      <section id="not-found" className="intro">
+const NotFound = () => {
+  return (
+    <section id="not-found">
+      <div>
         <div>
-          <div>
-            <i className="fa fa-odnoklassniki-square fa-5x"></i>
-            <br/>
-            <br/>
-            <h1>¡OOPS!</h1>
-            <p>Didn't found what you where looking for.</p>
-            <br/>
-            <p>
-              <Link to="/">
-                Back
-              </Link>
-            </p>
-          </div>
+          <i className="fa fa-odnoklassniki-square fa-5x"></i>
+          <br/>
+          <br/>
+          <h1>¡OOPS!</h1>
+          <p>Didn't found what you where looking for.</p>
+          <br/>
+          <p>
+            <Link to="/">
+              Back
+            </Link>
+          </p>
         </div>
-      </section>
-    );
-  }
-});
-
+      </div>
+    </section>
+  )
+}
 export default NotFound;
