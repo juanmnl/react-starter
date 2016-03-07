@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server",
-    "build": "./node_modules/.bin/webpack -p"
+    "build": "./node_modules/.bin/webpack -p",
+    "test": "mocha './src/**/*.spec.js' --compilers js:babel-core/register"
   },
   "repository": {
     "type": "git",
@@ -28,14 +29,17 @@
     "css-loader": "0.23.1",
     "eslint": "2.3.0",
     "eslint-plugin-react": "4.2.0",
+    "expect": "^1.14.0",
     "file-loader": "0.8.5",
     "html-webpack-plugin": "2.9.0",
+    "mocha": "^2.4.5",
     "node-libs-browser": "1.0.0",
     "node-sass": "3.4.2",
     "postcss-import": "^8.0.2",
     "postcss-loader": "0.8.1",
     "postcss-url": "^5.1.1",
     "precss": "^1.4.0",
+    "react-addons-test-utils": "^0.14.7",
     "sass-loader": "3.1.2",
     "style-loader": "0.13.0",
     "url-loader": "0.5.7",
