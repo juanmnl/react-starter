@@ -4,9 +4,8 @@ import Footer from './layout/Footer';
 
 const App = () => {
   return (
-    <div className='container'>
+    <div className='container is-fluid'>
       <Hello />
-      <hr />
       <Footer name='Juanmnl' />
     </div>
   )

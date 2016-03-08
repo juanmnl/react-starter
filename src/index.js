@@ -1,4 +1,4 @@
-import 'style/url!file!./../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import 'style/url!file!./../node_modules/bulma/css/bulma.css';
 import './styles/main.scss';
 
 import React from 'react';

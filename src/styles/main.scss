@@ -9,6 +9,7 @@
 }
 
 body {
+  padding: 2rem;
   background-color: $white;
 }
 
@@ -22,24 +23,6 @@ a {
   &:hover {
     color: $black;
     text-decoration: none;
-  }
-}
-
-.container {
-  min-width: 550px;
-  max-width: 75%;
-  padding: 2rem 2rem;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.jumbotron {
-  background-color: transparent;
-  h1 {
-    font-size: 1.8em;
-  }
-  p {
-    font-size: 1.2em;
   }
 }
 
