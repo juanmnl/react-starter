@@ -25,6 +25,8 @@
 ---
 ## Getting Started
 
+#### Check :crystal_ball: [Gitano-CLI](https://github.com/juanmnl/gitano-cli) for an even faster setup. :rocket:
+
 ### Install
 
 **1. Clone the react-starter project.**
@@ -41,7 +43,7 @@
 
 **3. Remove the template .git file and add a fresh one.**
 
-`rm -rf .git && git init`
+`rm -rf .git previews && git init`
 
 From this point this is your own project.  
 You can commit and push from 0 to your own repo.
