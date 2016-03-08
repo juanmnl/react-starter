@@ -75,6 +75,13 @@ You can commit and push from 0 to your own repo.
 ![no-css-framework](https://github.com/juanmnl/react-starter/blob/master/previews/no-css.png)
 
 ---
+#### [Bulma flexbox-based Css Framework](http://bulma.io/)
+
+`git clone -b bulma https://github.com/juanmnl/react-starter.git`
+
+![no-css-framework](https://github.com/juanmnl/react-starter/blob/master/previews/bulma.png)
+
+---
 #### Webpack Config File - Quick Tips  
 
 You can add an array of files to the entry *(files that are not required anywhere else)* :
