@@ -29,7 +29,7 @@
     "eslint": "2.3.0",
     "eslint-plugin-react": "4.2.1",
     "file-loader": "0.8.5",
-    "html-webpack-plugin": "2.9.0",
+    "html-webpack-plugin": "2.10.0",
     "node-libs-browser": "1.0.0",
     "node-sass": "3.4.2",
     "postcss-import": "^8.0.2",
@@ -49,6 +49,6 @@
     "history": "2.0.1",
     "react": "0.14.7",
     "react-dom": "0.14.7",
-    "react-router": "2.0.0"
+    "react-router": "2.0.1"
   }
 }
