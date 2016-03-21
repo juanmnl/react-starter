@@ -60,7 +60,11 @@ You can commit and push from 0 to your own repo.
 
 `npm start`
 
-**6. Build project**
+**6. Check js style**
+
+`npm run check-js`
+
+**7. Build project**
 
 `npm run build`
 

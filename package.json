@@ -6,7 +6,7 @@
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server",
     "build": "./node_modules/.bin/webpack -p",
-    "check-js": "./node_modules/.bin/standard"
+    "check-js": "./node_modules/.bin/snazzy"
   },
   "repository": {
     "type": "git",
@@ -36,6 +36,7 @@
     "postcss-url": "^5.1.1",
     "precss": "^1.4.0",
     "sass-loader": "3.2.0",
+    "snazzy": "^3.0.0",
     "standard": "^6.0.8",
     "style-loader": "0.13.0",
     "url-loader": "0.5.7",
