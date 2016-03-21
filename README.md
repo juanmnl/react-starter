@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/juanmnl/react-starter.svg?branch=master)](https://travis-ci.org/juanmnl/react-starter)
 [![Dependencies](https://david-dm.org/juanmnl/react-starter.svg?branch=master)](https://david-dm.org/juanmnl/react-starter)
 [![Code Climate](https://codeclimate.com/github/juanmnl/react-starter/badges/gpa.svg)](https://codeclimate.com/github/juanmnl/react-starter)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 
 **A small boilerplate for lightning-fast prototyping :rocket: :moon:**
@@ -15,7 +16,7 @@
 * Scss (-> PostCss)
 * Bootstrap *(don't like bootstrap? Try the alternatives)*
 * Babel
-* Eslint
+* [Standard.js](http://standardjs.com/)
 
 #### Extras:
 * React-HMR

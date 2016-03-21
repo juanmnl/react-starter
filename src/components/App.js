@@ -1,6 +1,6 @@
-import React from 'react';
-import Hello from './Hello';
-import Footer from './layout/Footer';
+import React from 'react'
+import Hello from './Hello'
+import Footer from './layout/Footer'
 
 const App = () => {
   return (
@@ -11,4 +11,4 @@ const App = () => {
     </div>
   )
 }
-export default App;
+export default App
