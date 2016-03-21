@@ -68,7 +68,7 @@ var common = {
   ]
 }
 
-if(TARGET === 'start' || !TARGET) {
+if (TARGET === 'start' || !TARGET) {
   module.exports = merge(common, {
     devtool: 'eval-source-map',
     devServer: {
@@ -86,7 +86,7 @@ if(TARGET === 'start' || !TARGET) {
   })
 }
 
-if(TARGET === 'build') {
+if (TARGET === 'build') {
   module.exports = merge(common, {
     // Add production config code
   })
