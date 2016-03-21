@@ -1,3 +1,5 @@
+/* eslint-env mocha */
+
 import React from 'react'
 import TestUtils from 'react-addons-test-utils'
 import expect from 'expect'
@@ -8,10 +10,8 @@ expect.extend(expectJSX)
 import App from './../components/App'
 import Hello from './../components/Hello'
 import Footer from './../components/layout/Footer'
-import Icon from './../components/Icon'
 
-describe('App', () => {
-
+describe('App component', () => {
   it('should render the container with a Hello and Footer components', () => {
     const renderer = TestUtils.createRenderer()
     renderer.render(<App />)
