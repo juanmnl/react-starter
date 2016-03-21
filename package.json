@@ -6,8 +6,9 @@
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server",
     "build": "./node_modules/.bin/webpack -p",
-    "test": "./node_modules/.bin/standard && mocha './src/**/*.spec.js' --compilers js:babel-core/register",
-    "test-watch": "./node_modules/.bin/standard && mocha -w './src/**/*.spec.js' --compilers js:babel-core/register"
+    "test": "mocha './src/**/*.spec.js' --compilers js:babel-core/register",
+    "test-watch": "mocha -w './src/**/*.spec.js' --compilers js:babel-core/register",
+    "check-js": "./node_modules/.bin/snazzy"
   },
   "repository": {
     "type": "git",
