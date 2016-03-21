@@ -1,5 +1,5 @@
-import React from 'react';
-import Icon from './Icon';
+import React from 'react'
+import Icon from './Icon'
 
 const Hello = () => {
   return (
@@ -18,4 +18,4 @@ const Hello = () => {
     </div>
   )
 }
-export default Hello;
+export default Hello

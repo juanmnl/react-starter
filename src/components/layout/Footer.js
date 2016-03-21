@@ -1,5 +1,5 @@
-import React from 'react';
-import Icon from './../Icon';
+import React from 'react'
+import Icon from './../Icon'
 
 const Footer = (props) => {
   return (
@@ -10,4 +10,4 @@ const Footer = (props) => {
     </footer>
   )
 }
-export default Footer;
+export default Footer

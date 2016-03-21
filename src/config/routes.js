@@ -1,7 +1,7 @@
-import React from 'react';
-import { Router, Route, Redirect, IndexRoute } from 'react-router';
-import App from '../components/App';
-import NotFound from '../components/NotFound';
+import React from 'react'
+import { Router, Route, Redirect, IndexRoute } from 'react-router'
+import App from '../components/App'
+import NotFound from '../components/NotFound'
 
 export default (
 	<Router>
@@ -9,4 +9,4 @@ export default (
       <Route path="*" component={NotFound} />
 		</Route>
 	</Router>
-);
+)
