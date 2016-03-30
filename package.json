@@ -27,7 +27,7 @@
     "babel-preset-react-hmre": "1.1.1",
     "css-loader": "0.23.1",
     "file-loader": "0.8.5",
-    "html-webpack-plugin": "2.14.0",
+    "html-webpack-plugin": "2.15.0",
     "node-libs-browser": "1.0.0",
     "node-sass": "3.4.2",
     "postcss-import": "^8.0.2",
@@ -47,8 +47,8 @@
     "bootstrap": "3.3.6",
     "font-awesome": "4.5.0",
     "history": "2.0.1",
-    "react": "0.14.7",
-    "react-dom": "0.14.7",
+    "react": "0.14.8",
+    "react-dom": "0.14.8",
     "react-router": "2.0.1"
   }
 }
