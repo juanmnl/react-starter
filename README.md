@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/juanmnl/react-starter.svg?branch=master)](https://travis-ci.org/juanmnl/react-starter)
 [![Dependencies](https://david-dm.org/juanmnl/react-starter.svg?branch=master)](https://david-dm.org/juanmnl/react-starter)
 [![Code Climate](https://codeclimate.com/github/juanmnl/react-starter/badges/gpa.svg)](https://codeclimate.com/github/juanmnl/react-starter)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 
 **A small boilerplate for lightning-fast prototyping :rocket: :moon:**
@@ -15,7 +16,7 @@
 * Scss (-> PostCss)
 * Bootstrap *(don't like bootstrap? Try the alternatives)*
 * Babel
-* Eslint
+* [Standard.js](http://standardjs.com/)
 
 #### Extras:
 * React-HMR
@@ -24,6 +25,8 @@
 
 ---
 ## Getting Started
+
+#### Check :crystal_ball: [Gitano-CLI](https://github.com/juanmnl/gitano-cli) for an even faster setup. :rocket:
 
 ### Install
 
@@ -41,7 +44,7 @@
 
 **3. Remove the template .git file and add a fresh one.**
 
-`rm -rf .git && git init`
+`rm -rf .git previews && git init`
 
 From this point this is your own project.  
 You can commit and push from 0 to your own repo.
@@ -57,7 +60,11 @@ You can commit and push from 0 to your own repo.
 
 `npm start`
 
-**6. Build project**
+**6. Check js style**
+
+`npm run check-js`
+
+**7. Build project**
 
 `npm run build`
 
@@ -73,6 +80,13 @@ You can commit and push from 0 to your own repo.
 `git clone -b no-css-framework https://github.com/juanmnl/react-starter.git`
 
 ![no-css-framework](https://github.com/juanmnl/react-starter/blob/master/previews/no-css.png)
+
+---
+#### [Bulma flexbox-based Css Framework](http://bulma.io/)
+
+`git clone -b bulma https://github.com/juanmnl/react-starter.git`
+
+![no-css-framework](https://github.com/juanmnl/react-starter/blob/master/previews/bulma.png)
 
 ---
 #### Webpack Config File - Quick Tips  

@@ -2,10 +2,10 @@ import React from 'react'
 import Hello from './Hello'
 import Footer from './layout/Footer'
 
-const App = () => {
+const App = (props) => {
   return (
     <div className='container'>
-      <Hello />
+      {props.children || <Hello />}
       <hr />
       <Footer name='Juanmnl' />
     </div>
