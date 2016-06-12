@@ -5,7 +5,6 @@ const HtmlwebpackPlugin = require('html-webpack-plugin')
 const postcssImport = require('postcss-import')
 const postcssUrl = require('postcss-url')
 const autoprefixer = require('autoprefixer')
-const precss = require('precss')
 
 const TARGET = process.env.npm_lifecycle_event
 const PATHS = {
@@ -57,7 +56,7 @@ var common = {
     ]
   },
   postcss: function (webpack) {
-    return [autoprefixer, precss, postcssImport({addDependencyTo: webpack}), postcssUrl({})]
+    return [autoprefixer, postcssImport({addDependencyTo: webpack}), postcssUrl({})]
   },
   plugins: [
     new HtmlwebpackPlugin({
