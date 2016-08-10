@@ -1,3 +1,5 @@
+###**:warning: Deprecated - With the creation of an ["official" boilerplate + cli](https://github.com/facebookincubator/create-react-app), I do not intend to maintain this repo anymore :warning:**
+
 # React Starter DevKit
 [![Build Status](https://travis-ci.org/juanmnl/react-starter.svg?branch=master)](https://travis-ci.org/juanmnl/react-starter)
 [![Dependencies](https://david-dm.org/juanmnl/react-starter.svg?branch=master)](https://david-dm.org/juanmnl/react-starter)
